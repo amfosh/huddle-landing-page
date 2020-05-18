@@ -1,0 +1,16 @@
+/* main styles */
+
+body {
+    background-image: url(../images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    padding: 0;
+    margin: 3%;
+}
+
+/* media styles */
+@media(max-width: 500px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-color: hsl(257, 40%, 49%);
+    }
+}
